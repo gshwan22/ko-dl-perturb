@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this resource, please cite it as below."
+title: "Korean dependency-distance perturbation corpora and fine-tuned model outputs"
+authors:
+  - family-names: Gwak
+    given-names: Sang-Hwan
+    orcid: "https://orcid.org/0000-0001-9098-3001"
+    affiliation: "Korea Institute of Science and Technology Information (KISTI)"
+version: "1.0.0"
+license: CC-BY-4.0
