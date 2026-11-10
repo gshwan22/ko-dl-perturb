@@ -1,6 +1,6 @@
 # Korean dependency-distance perturbation corpora and fine-tuned model outputs
 
-Resource accompanying *Beyond Mean Dependency Distance: Measuring the Syntactic Organization of Generated Korean as a Distribution over Typed Relations* (submitted to Language Resources and Evaluation).
+Resource accompanying *Beyond Mean Dependency Distance: Measuring the Syntactic Organization of Generated Korean as a Distribution over Typed Relations*.
 
 ## Contents
 

@@ -1,7 +1,7 @@
 {
   "title": "Korean dependency-distance perturbation corpora and fine-tuned model outputs",
   "upload_type": "dataset",
-  "description": "Five aligned Korean training corpora (original, LLM rewrite, and three tree-fixed reorderings that decrease, increase, or preserve mean dependency distance), 34,000 outputs of fine-tuned language models, parsed features from Stanza and UDPipe, and all code. Resource for a manuscript submitted to Language Resources and Evaluation.",
+  "description": "Five aligned Korean training corpora (original, LLM rewrite, and three tree-fixed reorderings that decrease, increase, or preserve mean dependency distance), 34,000 outputs of fine-tuned language models, parsed features from Stanza and UDPipe, and all code. Resource accompanying a journal manuscript.",
   "creators": [
     {
       "name": "Gwak, Sang-Hwan",
