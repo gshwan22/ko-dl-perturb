@@ -9,6 +9,7 @@ Resource accompanying *Beyond Mean Dependency Distance: Measuring the Syntactic 
 | `data/corpora/` | Five aligned training corpora of 30,000 Korean QA documents each: `nu0` original, `nu1` LLM rewrite toward shorter dependencies, `pi-minus` / `pi-plus` tree-fixed reorderings that decrease / increase mean dependency distance, `pi0` tree-fixed reordering with mean dependency distance held within 1% of the original |
 | `data/splits/` | Validation set (`val.jsonl`) and the 1,000 evaluation prompts (`eval_prompts.jsonl`) |
 | `outputs/30k/<condition>/<model>.jsonl` | 29,000 generated answers: six models x five conditions, 1,000 each (`pi0` without EXAONE) |
+| `outputs/536k_dose_response/<pi-plus|nu1>/<model>_p<p>.jsonl` | 60,000 answers from models fine-tuned on full-corpus mixtures of the original with `pi-plus` or `nu1` at proportions p = 0.0 to 1.0 (five models, six levels, 1,000 each) |
 | `outputs/536k_pi0/` | 5,000 answers from models fine-tuned on the full 536,153-document `pi0` corpus |
 | `features/stanza/`, `features/udpipe/` | Per-document parsed features (relation-specific distances and counts) for every output file and the reference |
 | `features/corpus_profiles_30k.json` | Relational profiles of the five training corpora |
